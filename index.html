@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 HTML Assignment</title> <!-- Module 4 knowledge check -->
+</head>
+<body>
+    <form>
+        <!-- A form element with all requested items and structure -->
+        <label for="name">Name:</label> <br>
+        <input type="text" id="name" name="name"> <br>
+        <label for="email">Email:</label> <br>
+        <input type="email" name="email" id="email"> <br>
+        <label for="your_message">Please enter brief message:</label> <br>
+        <textarea name="your_message" rows="5" cols="30"></textarea>
+        <p>How did you find us?</p>
+        <input type="radio" id="google" name="How_did_you_find_us" value="Google">
+        <label for="google">Google</label> <br>
+        <input type="radio" id="bing" name="How_did_you_find_us" value="Bing">
+        <label for="bing">Bing</label> <br>
+        <input type="radio" id="ourSite" name="How_did_you_find_us" value="ourSite">
+        <label for="ourSite">Our Website</label> <br>
+        <label for="Submit">Click to submit:</label>
+        <input type="button" id="Submit" name="Submit" value="Submit">
+    </form>
+
+    <table>
+        <!--This is a table containing table headers, three columns, and three table data rows -->
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Car Fob</td>
+            <td>$340</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Trunk Net</td>
+            <td>$25</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Tire Pump</td>
+            <td>$44</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <nav> 
+        <!-- Could have placed inside of a header element, but omitted as it was not
+        listed as a required element for this assignment. -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <img src="300x200.svg" alt="Placeholder Image">
+    <img src="istockphoto-1135504628-612x612.jpg" alt="A group of firefighters" style="border-radius: 8px;">
+    <!-- First image contains only alt, second has inline style attribute for the rounded border -->
+</body>
+</html>
